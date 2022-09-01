@@ -1,0 +1,233 @@
+body {
+    margin:0 auto;
+    /* background: white; */
+    /* width: 80%; */
+  }
+  
+  .menu-container {
+    /* border: 1px solid white; */
+      display: flex;    
+      justify-content: space-evenly;
+      padding: 20px 5px;
+       
+    }
+  
+  .menu {
+      display: flex;
+      width:75%;    
+      color: #E5E7EB; 
+      justify-content: space-evenly;
+    }
+  
+  .links{
+      margin-left: auto;
+      display: flex;  
+      
+  }  
+  
+  .Home,
+  .About,
+  .Contact{
+    margin-left: 10px;
+  }
+  
+  
+  .menu-container, .header-container, .footer{
+      background-color: #1F2937;
+    }
+  
+  
+  .logo {
+      color: #F9FAF8;
+      font-size: 24px;
+      display: flex;
+         
+     }
+  
+    h1 {
+    font-size: 48px;
+    text-decoration: solid;
+    color: #F9FAF8;
+    margin:0px;
+    
+   }
+  
+  .header-container{
+    /* border: 1px solid red; */
+    display: flex; 
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    padding: 75px;
+    width: auto;    
+  }
+  
+  .header,
+  .placeholder{
+   width: 500px;  
+   margin:  0px;
+   
+  
+  }
+  
+  .placeholder {
+    display: flex;
+    /* flex-flow: row nowrap;  */
+    justify-content: center;
+    text-align: center;    
+    color: #E5E7EB;
+    background-color: grey;
+    padding: 110px;   
+  }
+  
+  
+  div.content{
+    display: flex;
+  /* flex-flow: row wrap-reverse; */
+    flex-flow: column;
+  /* justify-content: flex-start; */
+    text-align: left;
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+  
+  
+  button.signup,
+  button.signup2 {
+    border: none;
+    border-radius: 6px;
+    padding: 6px 16px;
+    background: #3882f6;
+    color: #F9FAF8;
+    align-self: flex-end;   
+  }
+  
+  .placeholder{
+    display: flex;
+    justify-content: center;
+    padding-right: 10px; 
+    text-align: left;   
+  }
+  
+  .title{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 50px 0px 0px 0px;
+  }
+  
+  .container {
+    display: flex;
+    margin: 80px;
+    justify-content: center;
+    /* gap: 52px;
+    flex-flow: row wrap; */
+    /* align-items: center; */
+    
+  }
+  
+  .info-container{
+    display: flex;
+    justify-content: space-between ;
+    /* flex-flow: column wrap ; */
+    
+   
+  }
+  
+  .info > img {
+    /* display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap; */
+    width: 150px;
+    height: 150px;  
+    border-radius: 15px;
+    border-color: #3882f6;
+    border-style: solid;
+  }
+  
+   .info {
+    display: flex ;
+    flex-flow: column wrap;
+    width: 20%;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    /* margin: 0px;  */
+    gap: 10px;   
+  }
+  
+  .text{
+    color: #1F2937;
+    text-align: center;
+    width: 65%;
+  } 
+  
+  .section{
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 32px 212px 32px 212px ;  
+    width: fit-content;
+    justify-content : center;
+    align-content: center;
+    flex-flow: row wrap;
+    font-size: 31px; 
+     
+  }
+  
+  .section > p {
+    display: flex;
+    align-self: flex-start;
+  }
+  
+  .quote-content{
+     width: 79%;
+  }
+  
+  .quote-subtext{
+    display: flex;
+    justify-content: flex-end;
+  
+  }
+  
+  
+  .section .quote{
+    display: flex;
+    font-size: 31px light;
+    font-style: italic;
+    justify-content: center;
+  }
+  
+  
+  .Action{ 
+    display: flex;
+    flex-flow: row wrap;
+    background: #3882f6;
+    padding: 40px;
+    margin: 100px;
+    justify-content: space-around;  
+    max-width: 10000px;
+    border-radius: 15px;
+  
+  }
+  
+  .Action, .footer{
+    text-align: center;
+  }
+  
+  .Action > button.signup2{      
+      border: #F9FAF8;
+      border-style: solid;
+      align-self: center;
+  
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  
+  }
+  
+  .footer .text {
+    color: #F9FAF8;
+  
+  }
